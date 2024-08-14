@@ -99,3 +99,10 @@ table tr:nth-child(even) {
 table tr:hover {
     background-color: #ddd;
 }
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        background-color: lightcoral;
+    }
+}
